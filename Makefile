@@ -1,8 +1,13 @@
+source_dir=source
 
-deploy: clean
-	git clone git@github.com:tcbaby/_posts.git source/_posts \
-	&& hexo deploy
+deploy:
+	hexo clean && hexo deploy
+
+serve:
+	hexo g && hexo serve
+
+init: 
+	git clone git@github.com:tcbaby/notes.git && mv notes ${source_dir}
 
 clean:
-	rm -rf source/_posts
 	hexo clean
