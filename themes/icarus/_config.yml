@@ -73,13 +73,13 @@ search:
     type: insight
 # Comment plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
-# comment:
-#     # Name of the comment plugin
-#     type: valine
-#     app_id: 0MVesHWBYVPevIO52bj7lzha-gzGzoHsz
-#     app_key: vXNqehkuCjwju4w3eT6oYs97
-#     avatar: retro # gravatar style
-#     placeholder: Just Do It... # enter the comment box placeholder
+comment:
+    # Name of the comment plugin
+    type: valine
+    app_id: 0MVesHWBYVPevIO52bj7lzha-gzGzoHsz
+    app_key: vXNqehkuCjwju4w3eT6oYs97
+    avatar: retro # gravatar style
+    placeholder: Just Do It... # enter the comment box placeholder
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
